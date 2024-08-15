@@ -14,7 +14,8 @@ for i in gust:
 
 
 print("adding new members")
-gust.append('akram')
-
+gust.append('umer')
+gust.insert(0, 'akram')
+gust.insert(3,'Nasir')
 for i in gust:
     print(message.format(i))
